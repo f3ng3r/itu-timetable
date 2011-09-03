@@ -1,6 +1,7 @@
 ItuTimetable::Application.routes.draw do
 
 	get 'timetable' => 'timetables#index'
+	post 'timetable/show' => 'timetables#show'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
