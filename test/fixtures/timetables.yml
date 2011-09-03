@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  itu_email: MyString
+  courses: MyText
+
+two:
+  itu_email: MyString
+  courses: MyText

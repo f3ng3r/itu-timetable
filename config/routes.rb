@@ -1,7 +1,9 @@
 ItuTimetable::Application.routes.draw do
 
+  root :to => 'timetables#index'
 	get 'timetable' => 'timetables#index'
 	post 'timetable/show' => 'timetables#show'
+	get 'timetable/:id/update' => 'timetables#update', :as => 'update_timetable'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
