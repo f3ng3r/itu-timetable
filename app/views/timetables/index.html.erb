@@ -1,5 +1,5 @@
 <h1>Indtast dit itu-login</h1>
-<%= form_tag(:action => "show") do %>
+<%= form_tag(:action => "fetch_timetable") do %>
   <%= text_field_tag(:itu_email) %>
 	<%= password_field_tag(:itu_password) %>
 	<%= submit_tag("Vis skema")%>
